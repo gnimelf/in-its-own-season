@@ -1,0 +1,36 @@
+header{
+    background-color: gray;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+li{
+    margin: 0 10px;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.container p {
+    padding: 0 10px;
+}
+
+@media screen and (max-width:476px) {
+    .container{
+        text-align: center;
+        flex-direction: column;
+    }
+}
